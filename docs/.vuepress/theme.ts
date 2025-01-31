@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default hopeTheme(
   {
@@ -114,6 +115,13 @@ export default hopeTheme(
         // https://icon-sets.iconify.design/
         assets: "iconify",
       },
+      
+      mdEnhancePlugin({
+        // 使用 KaTeX 启用 TeX 支持
+        katex: true,
+        // 使用 mathjax 启用 TeX 支持
+        mathjax: true,
+      }),
 
       // 评论配置（仅做样例，记得更换）
       comment: {

@@ -1,6 +1,7 @@
 import { webpackBundler } from "@vuepress/bundler-webpack";
 import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 import theme from "./theme.js";
 
@@ -19,6 +20,15 @@ export default defineUserConfig({
   // 是否开启页面预拉取，如果服务器宽带足够，可改为 true，会提升其他页面加载速度
   shouldPrefetch: false,
 
+  plugins: [
+    mdEnhancePlugin({
+      // 使用 KaTeX 启用 TeX 支持
+      katex: true,
+      // 使用 mathjax 启用 TeX 支持
+      mathjax: true,
+    }),
+  ],
+  
   // 修改页面模板，https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/packages/theme/templates/index.build.html
   // 配置参考：https://vuepress.github.io/zh/reference/theme-api.html#templatebuild
   templateBuild: "./docs/.vuepress/templateBuild.html",

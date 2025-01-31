@@ -78,8 +78,8 @@ export default hopeTheme(
         GitHub: "https://github.com/YuukaWang",
         Zhihu: "https://www.zhihu.com/people/80-11-74-90-14",
         Wechat: "",
-        Email: "mailto:yuukawang@outlook.com",
         Email: "mailto:yuukawang@hotmail.com",
+        Email: "mailto:yuukawang@outlook.com",
       },
     },
 

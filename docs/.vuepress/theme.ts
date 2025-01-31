@@ -11,8 +11,8 @@ export default hopeTheme(
       url: "https://yuukawang.github.io/LearnData/",
     },
 
-    favicon: "/favicon.ico",
-    logo: "",
+    favicon: "",
+    logo: "/logo.svg",
 
     // 网站文章的版权声明
     license: "CC BY-NC-ND 4.0",

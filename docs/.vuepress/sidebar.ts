@@ -87,6 +87,42 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "🌏 地球科学",
+      icon: "",
+      prefix: "/geoscience/",
+      collapsible: true,
+      children: [
+        "README.md",
+        {
+          text: "🌐 网课笔记",
+          icon: "",
+          collapsible: true,
+          children: [
+            "README.md",
+            {
+              text: "第二学期选修课",
+              icon: "",
+              collapsible: true,
+              children: ["01 辐射与温度.md", "02 地球历史的温度变化.md", "03 水的重要性.md", "04 地球的物质组成.md", "05 地球化学基础.md",
+                         "06 生命与生命元素.md", "07 比较行星学.md", "08 行星与深空探测.md"],
+            },
+          ],
+        },
+        {
+          text: "📜 历年真题",
+          icon: "",
+          collapsible: true,
+          children: ["18国初.md", "18国决.md", "19国初.md", "19国决.md", "21国初", "21国决", "23国初", "23国决", "24国初", "24国决", "24国际赛"],
+        },
+        {
+          text: "🗑 其余杂项",
+          icon: "",
+          collapsible: true,
+          children: ["2024学年第一学期期末考试.md"],
+        },
+      ],
+    },
+    {
       text: "博客文章",
       icon: "fa6-solid:feather-pointed",
       prefix: "/_posts/",

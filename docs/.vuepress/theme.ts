@@ -12,7 +12,7 @@ export default hopeTheme(
     },
 
     favicon: "/favicon.ico",
-    logo: "/logo.svg",
+    logo: "",
 
     // 网站文章的版权声明
     license: "CC BY-NC-ND 4.0",

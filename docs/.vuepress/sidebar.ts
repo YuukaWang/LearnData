@@ -80,7 +80,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "加密目录",
+      text: "🔑 加密目录",
       icon: "material-symbols:encrypted",
       prefix: "/encrypt/",
       collapsible: true,

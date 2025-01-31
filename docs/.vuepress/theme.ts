@@ -75,9 +75,8 @@ export default hopeTheme(
       description: "To be finished",
       intro: "/intro.html",
       medias: {
-        GitHub: "https://github.com/rockbenben",
-        Zhihu: "https://www.zhihu.com/people/qingwhat",
-        少数派: { icon: "https://newzone.top/icons/sspai.svg", link: "" },
+        GitHub: "https://github.com/YuukaWang",
+        Zhihu: "https://www.zhihu.com/people/80-11-74-90-14",
         Wechat: "",
         Email: "mailto:yuukawang@outlook.com",
         Email: "mailto:yuukawang@hotmail.com",

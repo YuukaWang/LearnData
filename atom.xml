@@ -4,7 +4,7 @@
   <title>LearnData 开源笔记</title>
   <subtitle>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</subtitle>
   <icon>https://yuukawang.github.io/LearnData/LearnData/favicon.ico</icon>
-  <updated>2025-01-31T15:11:00.111Z</updated>
+  <updated>2025-01-31T15:17:09.924Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://yuukawang.github.io/LearnData/LearnData/atom.xml"/>
   <link rel="alternate" href="https://yuukawang.github.io/LearnData/LearnData/"/>
@@ -33,5 +33,399 @@
 ]]></content>
     <category term="使用指南"/>
     <published>2024-03-01T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text"></title>
+    <id>https://yuukawang.github.io/LearnData/LearnData/geoscience/24%E5%9B%BD%E5%86%B3.html</id>
+    <link href="https://yuukawang.github.io/LearnData/LearnData/geoscience/24%E5%9B%BD%E5%86%B3.html"/>
+    <updated>2025-01-31T15:15:51.000Z</updated>
+    <summary type="html"><![CDATA[<p><strong>一、选择题一</strong>
+——早期地球与行星比较学
+Q1英云：石英云母
+Q2锆石定年
+锆石（$ZrSiO_{4}$）一般出现在伟晶岩、碱性岩中，封闭温度700~900℃
+思考：为什么锆石适合U-Th-Pb定年？
+- 封闭温度高，不易被岩浆活动破坏
+- 考查化学式$Zr[SiO_{4}]$岛状硅酸盐
+- <a href="24%E5%9B%BD%E5%86%B3">Zr是怎样的元素？</a>
+Jack Hill Zircon: 4400Ma印度洋打开后未造山而保留
+Q3火山作用大气（忽略）
+乙醇?
+可能想考第一第二代大气。
+忽略
+Q4行星散热
+1. 低热流（火星）：单板构造（岩石圈传导）
+2. 中热流（地球）：板块构造（物质交换）
+3. 高热流（早期地球）：热管构造
+地热梯度大诱发快速物质交换
+热管喷出地表，地幔柱没有喷出地表
+![[热管.png]]
+Q5岩石与矿物的年龄差距
+岩石被破坏≠矿物被破坏
+Q6金星是地球的过去
+火星是地球的未来
+~4560Ma地球形成
+~4400Ma(?)还原性大气，固体地表形成但不稳定
+Q7月球地质运动停止
+大气层对地面辐射净收入，对太阳辐射净支出
+水导致板块分易与俯冲
+挥发性成分$\longleftrightarrow$熔点较低物体、
+Q8晚期月表陨石密集撞击事件而地球无证据
+B？C？忽略
+Q9火星上的水
+Q10$H_{2}SO_{4}&amp;H_{2}S\Leftrightarrow$嗜碱厌氧
+<a href="24%E5%9B%BD%E5%86%B3">Zr是怎样的元素？</a>（亲石（氧）元素）
+与Th，U相同$\leftrightarrow$类质同象；Pb亲铜（硫），基本不能进入锆石
+那为什么锆石中发现Pb？
+衰变（$^{206}<em 82="">{82}Pb$）：
+$<sup 206="">{238}_{92}U\to</sup></em>Pb$
+$<sup 207="">{235}_{92}U\to</sup><em 82="">{82}Pb$
+$<sup 208="">{232}_{90}Th\to</sup></em>Pb$
+思考：分别进行了几次α、β衰变
+仅考虑离子半径和电荷，$Pb<sup 4+="">{4+}$反而更接近$Zr</sup>$
+<strong>不能仅考虑鲍林规则，看z/r</strong>（电荷数/离子半径）
+定量推导：
+$n:=母体量\ D:=子体量$
+$-\frac{\mathrm{d}n}{\mathrm{d}t}=\lambda\times n$
+$\Longleftrightarrow\frac{\mathrm{d}n}{n}=-\lambda \mathrm{d}t$
+$\Longleftrightarrow\int<sup t="">{n_{现}}_{n_{0}}\frac{\mathrm{d}n}{n}=-\int</sup><em 0="">{t</em>:=0}\lambda \mathrm{d}t$
+$\Longleftrightarrow \ln n|^{n_{现}}<em>{n</em>{0}}=-\lambda t|^{t}<em>{0}$
+$\Longleftrightarrow\ln \frac{n}{n</em>{0}}=-\lambda t$
+$\Longleftrightarrow \frac{n}{n_{0}}=\mathrm{e}^{-\lambda t}$
+$\Longleftrightarrow n=n_{0}\mathrm{e}^{-\lambda t}$
+因此锆石中基本没有Pb是优点
+同时发生——转为t的参数方程
+$\implies t=\frac{\ln\left( \frac{<sup 238="">{206}Pb}{</sup>U}+1\right)}{\lambda_{238}}=\frac{\ln\left( \frac{<sup 235="">{207}Pb}{</sup>U}+1\right)}{\lambda_{235}}$
+$\implies$存在一条普遍满足的“谐和线”
+例：![[U-Pb谐和线示例.png]]
+若不满足谐和线（称为非谐和线）则表明U或Pb丢失（以Pb丢失为多）
+非谐和线与谐和线上交点为初始封闭时间，下交点为重新封闭区间
+U-Pb谐和线上凸是由于$\exp(\lambda_{235}t)&gt;\exp(\lambda_{238}t)$
+$\longleftrightarrow$Q53.锆石定年
+<strong>二、选择题二</strong>：
+——不整合接触
+Q11
+忽略
+Q12
+<strong>三、选择题三：</strong>
+——等潜水位线
+Q13
+Q14
+油密度小，但是潜水,在重力梯度下向下流动。选梯度最大的
+Q15
+排序
+<strong>四、选择题四</strong>
+——大气逃逸
+第一宇宙速度$v_{1}=mg=\frac{mv^{2}}{r},v=\sqrt{g}r$：环绕速度
+第二宇宙速度$v_{2}=\frac{1}{2}mv^{2}=mgr, v=\sqrt{2gr}$：脱离地球引力
+第三宇宙速度$v_{3}$：脱离太阳引力（先脱离地球再脱离太阳）
+脱离太阳$\frac{1}{2}mv_{3}^{2}=\frac{\mathrm{G}mM_{太阳}}{R}$
+$v_{3}=42.2\times10^{3}m/s$
+相对地球$v_{3}'=v_{3}-v_{地球}=12.4\times10<sup 3="">{3}m/s$（地球本身有公转速度$29.8\times10</sup>m/s$）
+脱离太阳同时脱离地球$\frac{1}{2}m{v''<em>{3}}<sup 2="">{2}=\frac{1}{2}mv_{2}</sup>+\frac{1}{2}m{v'</em>{3}}^{2}$
+真正的第三宇宙速度（因为是地球上发射）：$v''<em 气体="">{3}=16.7\times10^{3}m/s$
+![[学长笔记.png]]
+大气逃逸：
+大气逃逸方式：<strong>金斯逃逸</strong>、<strong>电荷交换</strong>、<strong>极地风逃逸</strong>、<strong>撞击逃逸</strong>等  <a href="https://en.wikipedia.org/wiki/Atmospheric_escape" target="_blank" rel="noopener noreferrer">参见</a>
+金斯逃逸：$v</em>(km/s)=0.157\sqrt{\frac{气体温度（K）}{相对分子质量}}&gt;6v_{2}$
+Q16略
+Q17依公式计算
+Q18波痕
+Q19都可以
+Q20
+倾斜，倾向相反。见图![[Q20.png]]
+Q21略
+Q22略
+Q23
+C?
+Q24
+地球产生氢气方式：<strong>蛇纹岩水岩反应</strong>、<strong>辐射水分解</strong>、<strong>断层摩擦</strong>、<strong>地幔脱气</strong>、<strong>微生物分解</strong>等![[地球产氢.png]]
+Q25
+<a href="https://www.bilibili.com/video/BV1ci42127GJ" title="B站" target="_blank" rel="noopener noreferrer">视频</a>
+圆形地球轨道，无倾角——点
+圆形地球轨道，有倾角——正8字
+椭圆地球轨道，无倾角——是椭圆（赤道是东西向直线）
+椭圆地球轨道，有倾角——不对称8字形
+<em>本质</em>是<strong>真太阳时与平太阳时</strong>
+<strong>五、综合分析题</strong>
+——Q26~31硫的非质量分馏
+23决 $^{13}C$负飘移
+Q26略
+Q27略
+Q28
+$2SO_{2}\longrightarrow SO+SO_{3}$
+$S_{8}+6H_{2}O\longrightarrow 4H_{2}S+2S_{2}O_{3}<sup +="">{2-}+4S</sup>$
+$4SO_{4}^{2-}+7C\cdot H_{2}O+4H^{+}$
+$\longrightarrow2FeS_{2}+7CO_{2}+9H_{2}O$
+1. 谁氧化，谁还原？
+2. 海洋里有什么其他离子？
+3. $S$，$HS$，$SO$都是中间产物
+4. $S<sup 3+="">{2-}$与$Fe</sup>$反应不考虑
+Q29略
+Q30
+正信号稀释负信号或大陆风化稀释
+Q31略
+扩展学习：《地球系统》第十一章，生命对大气的影响：大气中氧气和臭氧的含量上升
+——Q32~36电离层与大气标高
+Q32
+一种猜答案的方法：量纲分析
+$\dim(H)=L；\dim(R)=ML<sup -2="">{2}T</sup>K<sup -1="">{-1}N</sup>；$
+$\dim(g)=LT<sup -1="">{-2}；\dim(T)=K；\dim(m)=MN</sup>$
+根据量纲一致性，$\dots$，得$H=\frac{RT}{mg}$（参看瑞利法与布金汉法）
+<s>这太工科了</s>
+如何用z表达z高度之上的大气质量
+思考：$M=\int_{z}^{+\infty}\frac{n(z)m}{N_{A}}\cdot S\mathrm{d}z$
+$\frac{n_{0}\exp\left(\frac{z_{0}-z}{H}\right)RT}{N_{A}}=p=\frac{\int_{z}^{+\infty}\exp\left( \frac{z_{0}-z}{H}\right)\mathrm{d}z\cdot n_{0}mSg}{N_{A}S}$
+其中对于$\int_{z}^{+\infty}\exp\left( \frac{z_{0}-z}{H}\right)\mathrm{d}z$
+做变量代换$u:=\frac{z_{0}-z}{H} \implies \mathrm{d}z=-H\mathrm{d}u$
+那么就有$\int_{z}^{+\infty}\exp\left( \frac{z_{0}-z}{H}\right)\mathrm{d}z=-H\int<sup u="">{+\infty}_{z}e</sup>\mathrm{d}u$
+$=-H\cdot\exp\left(\frac{z_{0}-z}{H}\right)|^{+\infty}<em 0="">{z}=H\cdot\exp(\frac{z</em>-z}{H})$
+$\implies H=\frac{RT}{mg}$
+<s>这不是PhO入门题吗，怎么阴魂不散</s>
+Q33电子数密度的时间导数表达式即$\dot{n[e^{-}]}$
+单位时间内电子数密度变化=产生-消失
+<em>产生$q$；消失$\alpha n[X<sup -="">{+}]n[e</sup>]$；状态$n[X<sup -="">{+}]=n[e</sup>]$</em>
+$\implies\dot{n[e^{-}]}=q-\alpha n[e^{-}]$
+Q34
+$\left{\begin{matrix}n(z)=\frac{\cos(\chi)}{\sigma H} \n(z)=n_{0}\exp\left(\frac{z_{0}-z}{H}\right)\end{matrix}\right.$
+$\implies\frac{\cos(\chi)}{\sigma H}=n_{0}\exp\left(\frac{z_{0}-z}{H}\right)$
+$\implies z=H\ln(\sigma Hn_{0}\sec(\chi))+z_{0}$
+Q35
+$n(z)(-\sigma H\sec(\chi))+1=0\implies n(z)=\frac{\cos(\chi)}{\sigma H}$
+代回得$q(\chi,z)=l_{\infty}\sigma\eta n(z)\exp(-\sigma n(z)H\sec(\chi))$
+$\frac{\partial q(\chi,z)}{\partial z}=q-\alpha n[e<sup 2="">{-}]</sup>=0$时取得极值,此时$n[e^{-}]=\sqrt{\frac{q}{a}}$
+$\implies q_{max}=\frac{l_{\infty}\eta\cos(\chi)}{\mathrm{e}H}, n[e^{-}]=\sqrt{\frac{l_{\infty}\eta\cos(\chi)}{\alpha\mathrm{e}H}}$
+==注意：==区分<strong>最大电离产生率</strong>与<strong>峰值电子密度</strong>
+Q36由上述式子得到
+——Q37~43气象学
+Q37$H_{2}O(l)\to H_{2}O(g)\ \ \Delta H&lt;0$
+Q38略
+思考：湿球温度是不是就是露点温度？
+<strong>不是</strong>，水汽含量不变，改变温度使水汽分压达到蒸汽压时温度为露点温度
+Q39 $40hPa\sim100m$
+Q40在相图上移动
+Q41湿绝热直减率$10℃/km&gt;$干绝热直减率$5℃/km$
+![[大气垂直温度曲线.png]]
+Q42焚风效应
+![[焚风效应.png]]
+Q43略
+——Q44~49热液成矿
+Q44切割率
+Q45鲍文反应序列$\leftrightarrow$分层
+Q46传热$\leftrightarrow$温差
+Q47略
+Q48钾化蚀变较窄，难以在野外准确定位
+Q49$Ti/Sr$得距离，再做圆取交点
+——Q50维恩位移定律
+由$\lambda_{max}=\frac{b}{T}$计算
+——Q51~53地质图
+Q51读图
+- 发育了志留纪、泥盆纪、石炭纪、二叠纪，各组地层间连续沉积，整合接触；以志留纪为核的背斜与以二叠纪为核的向斜；花岗岩侵入体和断层；存在侵入接触关系和热接触变质作用等
+- 花岗岩体为一小型小型岩株，侵入于石炭·二叠系地层；F1 断层倾向南西，为逆断层； F2 为右行平移断层，平移距离约为 40m
+- 发育顺序：志留系-泥盆系-石炭系-二叠系向斜和背斜-断层 FI1和F2 -花岗岩体-接触变质作用-剥蚀
+Q52
+发育于花岗岩与石炭系硅质白云岩接触带附近
+交代变质：
+$5CaMg(CO_{3})<em 2="">{2}+8SiO</em>+H_{2}O\longrightarrow Ca_{2}Mg_{5}Si_{8}O_{22}(OH)<em 3="">{2}+3CaCO</em>+7CO_{2}\uparrow$
+$CaMg(CO_{3})<em 2="">{2}+2SiO</em>\longrightarrow CaMgSi2O6+2CO2↑$
+$CaMg(CO_{3})<em 2="">{2}+SiO</em>\longrightarrow CaSiO3+MgCO3+CO2↑$
+重结晶：石英砂岩$\to$石英岩
+Q53锆石测年
+卡西欧拟合$<sup 238="">{206}Pb=</sup>U\cdot k,k=\mathrm{e}^{\lambda t}-1$为常数![[Q53拟合.png]]</p>]]></summary>
+    <content type="html"><![CDATA[<p><strong>一、选择题一</strong>
+——早期地球与行星比较学
+Q1英云：石英云母
+Q2锆石定年
+锆石（$ZrSiO_{4}$）一般出现在伟晶岩、碱性岩中，封闭温度700~900℃
+思考：为什么锆石适合U-Th-Pb定年？
+- 封闭温度高，不易被岩浆活动破坏
+- 考查化学式$Zr[SiO_{4}]$岛状硅酸盐
+- <a href="24%E5%9B%BD%E5%86%B3">Zr是怎样的元素？</a>
+Jack Hill Zircon: 4400Ma印度洋打开后未造山而保留
+Q3火山作用大气（忽略）
+乙醇?
+可能想考第一第二代大气。
+忽略
+Q4行星散热
+1. 低热流（火星）：单板构造（岩石圈传导）
+2. 中热流（地球）：板块构造（物质交换）
+3. 高热流（早期地球）：热管构造
+地热梯度大诱发快速物质交换
+热管喷出地表，地幔柱没有喷出地表
+![[热管.png]]
+Q5岩石与矿物的年龄差距
+岩石被破坏≠矿物被破坏
+Q6金星是地球的过去
+火星是地球的未来
+~4560Ma地球形成
+~4400Ma(?)还原性大气，固体地表形成但不稳定
+Q7月球地质运动停止
+大气层对地面辐射净收入，对太阳辐射净支出
+水导致板块分易与俯冲
+挥发性成分$\longleftrightarrow$熔点较低物体、
+Q8晚期月表陨石密集撞击事件而地球无证据
+B？C？忽略
+Q9火星上的水
+Q10$H_{2}SO_{4}&amp;H_{2}S\Leftrightarrow$嗜碱厌氧
+<a href="24%E5%9B%BD%E5%86%B3">Zr是怎样的元素？</a>（亲石（氧）元素）
+与Th，U相同$\leftrightarrow$类质同象；Pb亲铜（硫），基本不能进入锆石
+那为什么锆石中发现Pb？
+衰变（$^{206}<em 82="">{82}Pb$）：
+$<sup 206="">{238}_{92}U\to</sup></em>Pb$
+$<sup 207="">{235}_{92}U\to</sup><em 82="">{82}Pb$
+$<sup 208="">{232}_{90}Th\to</sup></em>Pb$
+思考：分别进行了几次α、β衰变
+仅考虑离子半径和电荷，$Pb<sup 4+="">{4+}$反而更接近$Zr</sup>$
+<strong>不能仅考虑鲍林规则，看z/r</strong>（电荷数/离子半径）
+定量推导：
+$n:=母体量\ D:=子体量$
+$-\frac{\mathrm{d}n}{\mathrm{d}t}=\lambda\times n$
+$\Longleftrightarrow\frac{\mathrm{d}n}{n}=-\lambda \mathrm{d}t$
+$\Longleftrightarrow\int<sup t="">{n_{现}}_{n_{0}}\frac{\mathrm{d}n}{n}=-\int</sup><em 0="">{t</em>:=0}\lambda \mathrm{d}t$
+$\Longleftrightarrow \ln n|^{n_{现}}<em>{n</em>{0}}=-\lambda t|^{t}<em>{0}$
+$\Longleftrightarrow\ln \frac{n}{n</em>{0}}=-\lambda t$
+$\Longleftrightarrow \frac{n}{n_{0}}=\mathrm{e}^{-\lambda t}$
+$\Longleftrightarrow n=n_{0}\mathrm{e}^{-\lambda t}$
+因此锆石中基本没有Pb是优点
+同时发生——转为t的参数方程
+$\implies t=\frac{\ln\left( \frac{<sup 238="">{206}Pb}{</sup>U}+1\right)}{\lambda_{238}}=\frac{\ln\left( \frac{<sup 235="">{207}Pb}{</sup>U}+1\right)}{\lambda_{235}}$
+$\implies$存在一条普遍满足的“谐和线”
+例：![[U-Pb谐和线示例.png]]
+若不满足谐和线（称为非谐和线）则表明U或Pb丢失（以Pb丢失为多）
+非谐和线与谐和线上交点为初始封闭时间，下交点为重新封闭区间
+U-Pb谐和线上凸是由于$\exp(\lambda_{235}t)&gt;\exp(\lambda_{238}t)$
+$\longleftrightarrow$Q53.锆石定年
+<strong>二、选择题二</strong>：
+——不整合接触
+Q11
+忽略
+Q12
+<strong>三、选择题三：</strong>
+——等潜水位线
+Q13
+Q14
+油密度小，但是潜水,在重力梯度下向下流动。选梯度最大的
+Q15
+排序
+<strong>四、选择题四</strong>
+——大气逃逸
+第一宇宙速度$v_{1}=mg=\frac{mv^{2}}{r},v=\sqrt{g}r$：环绕速度
+第二宇宙速度$v_{2}=\frac{1}{2}mv^{2}=mgr, v=\sqrt{2gr}$：脱离地球引力
+第三宇宙速度$v_{3}$：脱离太阳引力（先脱离地球再脱离太阳）
+脱离太阳$\frac{1}{2}mv_{3}^{2}=\frac{\mathrm{G}mM_{太阳}}{R}$
+$v_{3}=42.2\times10^{3}m/s$
+相对地球$v_{3}'=v_{3}-v_{地球}=12.4\times10<sup 3="">{3}m/s$（地球本身有公转速度$29.8\times10</sup>m/s$）
+脱离太阳同时脱离地球$\frac{1}{2}m{v''<em>{3}}<sup 2="">{2}=\frac{1}{2}mv_{2}</sup>+\frac{1}{2}m{v'</em>{3}}^{2}$
+真正的第三宇宙速度（因为是地球上发射）：$v''<em 气体="">{3}=16.7\times10^{3}m/s$
+![[学长笔记.png]]
+大气逃逸：
+大气逃逸方式：<strong>金斯逃逸</strong>、<strong>电荷交换</strong>、<strong>极地风逃逸</strong>、<strong>撞击逃逸</strong>等  <a href="https://en.wikipedia.org/wiki/Atmospheric_escape" target="_blank" rel="noopener noreferrer">参见</a>
+金斯逃逸：$v</em>(km/s)=0.157\sqrt{\frac{气体温度（K）}{相对分子质量}}&gt;6v_{2}$
+Q16略
+Q17依公式计算
+Q18波痕
+Q19都可以
+Q20
+倾斜，倾向相反。见图![[Q20.png]]
+Q21略
+Q22略
+Q23
+C?
+Q24
+地球产生氢气方式：<strong>蛇纹岩水岩反应</strong>、<strong>辐射水分解</strong>、<strong>断层摩擦</strong>、<strong>地幔脱气</strong>、<strong>微生物分解</strong>等![[地球产氢.png]]
+Q25
+<a href="https://www.bilibili.com/video/BV1ci42127GJ" title="B站" target="_blank" rel="noopener noreferrer">视频</a>
+圆形地球轨道，无倾角——点
+圆形地球轨道，有倾角——正8字
+椭圆地球轨道，无倾角——是椭圆（赤道是东西向直线）
+椭圆地球轨道，有倾角——不对称8字形
+<em>本质</em>是<strong>真太阳时与平太阳时</strong>
+<strong>五、综合分析题</strong>
+——Q26~31硫的非质量分馏
+23决 $^{13}C$负飘移
+Q26略
+Q27略
+Q28
+$2SO_{2}\longrightarrow SO+SO_{3}$
+$S_{8}+6H_{2}O\longrightarrow 4H_{2}S+2S_{2}O_{3}<sup +="">{2-}+4S</sup>$
+$4SO_{4}^{2-}+7C\cdot H_{2}O+4H^{+}$
+$\longrightarrow2FeS_{2}+7CO_{2}+9H_{2}O$
+1. 谁氧化，谁还原？
+2. 海洋里有什么其他离子？
+3. $S$，$HS$，$SO$都是中间产物
+4. $S<sup 3+="">{2-}$与$Fe</sup>$反应不考虑
+Q29略
+Q30
+正信号稀释负信号或大陆风化稀释
+Q31略
+扩展学习：《地球系统》第十一章，生命对大气的影响：大气中氧气和臭氧的含量上升
+——Q32~36电离层与大气标高
+Q32
+一种猜答案的方法：量纲分析
+$\dim(H)=L；\dim(R)=ML<sup -2="">{2}T</sup>K<sup -1="">{-1}N</sup>；$
+$\dim(g)=LT<sup -1="">{-2}；\dim(T)=K；\dim(m)=MN</sup>$
+根据量纲一致性，$\dots$，得$H=\frac{RT}{mg}$（参看瑞利法与布金汉法）
+<s>这太工科了</s>
+如何用z表达z高度之上的大气质量
+思考：$M=\int_{z}^{+\infty}\frac{n(z)m}{N_{A}}\cdot S\mathrm{d}z$
+$\frac{n_{0}\exp\left(\frac{z_{0}-z}{H}\right)RT}{N_{A}}=p=\frac{\int_{z}^{+\infty}\exp\left( \frac{z_{0}-z}{H}\right)\mathrm{d}z\cdot n_{0}mSg}{N_{A}S}$
+其中对于$\int_{z}^{+\infty}\exp\left( \frac{z_{0}-z}{H}\right)\mathrm{d}z$
+做变量代换$u:=\frac{z_{0}-z}{H} \implies \mathrm{d}z=-H\mathrm{d}u$
+那么就有$\int_{z}^{+\infty}\exp\left( \frac{z_{0}-z}{H}\right)\mathrm{d}z=-H\int<sup u="">{+\infty}_{z}e</sup>\mathrm{d}u$
+$=-H\cdot\exp\left(\frac{z_{0}-z}{H}\right)|^{+\infty}<em 0="">{z}=H\cdot\exp(\frac{z</em>-z}{H})$
+$\implies H=\frac{RT}{mg}$
+<s>这不是PhO入门题吗，怎么阴魂不散</s>
+Q33电子数密度的时间导数表达式即$\dot{n[e^{-}]}$
+单位时间内电子数密度变化=产生-消失
+<em>产生$q$；消失$\alpha n[X<sup -="">{+}]n[e</sup>]$；状态$n[X<sup -="">{+}]=n[e</sup>]$</em>
+$\implies\dot{n[e^{-}]}=q-\alpha n[e^{-}]$
+Q34
+$\left{\begin{matrix}n(z)=\frac{\cos(\chi)}{\sigma H} \n(z)=n_{0}\exp\left(\frac{z_{0}-z}{H}\right)\end{matrix}\right.$
+$\implies\frac{\cos(\chi)}{\sigma H}=n_{0}\exp\left(\frac{z_{0}-z}{H}\right)$
+$\implies z=H\ln(\sigma Hn_{0}\sec(\chi))+z_{0}$
+Q35
+$n(z)(-\sigma H\sec(\chi))+1=0\implies n(z)=\frac{\cos(\chi)}{\sigma H}$
+代回得$q(\chi,z)=l_{\infty}\sigma\eta n(z)\exp(-\sigma n(z)H\sec(\chi))$
+$\frac{\partial q(\chi,z)}{\partial z}=q-\alpha n[e<sup 2="">{-}]</sup>=0$时取得极值,此时$n[e^{-}]=\sqrt{\frac{q}{a}}$
+$\implies q_{max}=\frac{l_{\infty}\eta\cos(\chi)}{\mathrm{e}H}, n[e^{-}]=\sqrt{\frac{l_{\infty}\eta\cos(\chi)}{\alpha\mathrm{e}H}}$
+==注意：==区分<strong>最大电离产生率</strong>与<strong>峰值电子密度</strong>
+Q36由上述式子得到
+——Q37~43气象学
+Q37$H_{2}O(l)\to H_{2}O(g)\ \ \Delta H&lt;0$
+Q38略
+思考：湿球温度是不是就是露点温度？
+<strong>不是</strong>，水汽含量不变，改变温度使水汽分压达到蒸汽压时温度为露点温度
+Q39 $40hPa\sim100m$
+Q40在相图上移动
+Q41湿绝热直减率$10℃/km&gt;$干绝热直减率$5℃/km$
+![[大气垂直温度曲线.png]]
+Q42焚风效应
+![[焚风效应.png]]
+Q43略
+——Q44~49热液成矿
+Q44切割率
+Q45鲍文反应序列$\leftrightarrow$分层
+Q46传热$\leftrightarrow$温差
+Q47略
+Q48钾化蚀变较窄，难以在野外准确定位
+Q49$Ti/Sr$得距离，再做圆取交点
+——Q50维恩位移定律
+由$\lambda_{max}=\frac{b}{T}$计算
+——Q51~53地质图
+Q51读图
+- 发育了志留纪、泥盆纪、石炭纪、二叠纪，各组地层间连续沉积，整合接触；以志留纪为核的背斜与以二叠纪为核的向斜；花岗岩侵入体和断层；存在侵入接触关系和热接触变质作用等
+- 花岗岩体为一小型小型岩株，侵入于石炭·二叠系地层；F1 断层倾向南西，为逆断层； F2 为右行平移断层，平移距离约为 40m
+- 发育顺序：志留系-泥盆系-石炭系-二叠系向斜和背斜-断层 FI1和F2 -花岗岩体-接触变质作用-剥蚀
+Q52
+发育于花岗岩与石炭系硅质白云岩接触带附近
+交代变质：
+$5CaMg(CO_{3})<em 2="">{2}+8SiO</em>+H_{2}O\longrightarrow Ca_{2}Mg_{5}Si_{8}O_{22}(OH)<em 3="">{2}+3CaCO</em>+7CO_{2}\uparrow$
+$CaMg(CO_{3})<em 2="">{2}+2SiO</em>\longrightarrow CaMgSi2O6+2CO2↑$
+$CaMg(CO_{3})<em 2="">{2}+SiO</em>\longrightarrow CaSiO3+MgCO3+CO2↑$
+重结晶：石英砂岩$\to$石英岩
+Q53锆石测年
+卡西欧拟合$<sup 238="">{206}Pb=</sup>U\cdot k,k=\mathrm{e}^{\lambda t}-1$为常数![[Q53拟合.png]]</p>
+]]></content>
+    <published>2025-01-31T15:15:51.000Z</published>
   </entry>
 </feed>

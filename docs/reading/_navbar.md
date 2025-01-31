@@ -1,3 +1,3 @@
 - [🚀 LearnData](https://yuukawang.github.io/LearnData/)
 - [📝 博客文章](https://yuukawang.github.io/LearnData/blog.html)
-- [🔨 工具收藏](https://https://yuukawang.github.io/LearnData/nav/)
+- [🔨 工具收藏](https://nav.newzone.top/)

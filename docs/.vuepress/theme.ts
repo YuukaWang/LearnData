@@ -90,7 +90,7 @@ export default hopeTheme(
       align: true, // 启用自定义对齐
       attrs: true, // 使用特殊标记为 Markdown 元素添加属性
       mark: true, // 使用 == == 进行标记，注意两边需要有空格
-      // spoiler: true, // 使用 !! !! 标记剧透剧透文字，注意两边需要有空格
+       spoiler: true, // 使用 !! !! 标记剧透剧透文字，注意两边需要有空格
       sup: true, // 上下角标
       sub: true,
       include: true, // 导入文件
@@ -99,7 +99,7 @@ export default hopeTheme(
       component: true, // 使用 component 代码块来在 Markdown 中添加组件，YAML 和 JSON 的数据格式均受支持
       figure: true, // 启用 figure
       imgLazyload: true, // 启用图片懒加载
-      // imgMark: true, // 启用图片标记
+       imgMark: true, // 启用图片标记
       imgSize: true, // 启用图片大小
       hint: true, // 启用提示容器，默认启用
       alert: true, // 启用 GFM 警告

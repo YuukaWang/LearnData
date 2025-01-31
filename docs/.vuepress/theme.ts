@@ -5,10 +5,10 @@ import sidebar from "./sidebar.js";
 export default hopeTheme(
   {
     // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-    hostname: "https://newzone.top",
+    hostname: "https://yuukawang.github.io/LearnData/",
     author: {
       name: "LearnData",
-      url: "https://newzone.top",
+      url: "https://yuukawang.github.io/LearnData/",
     },
 
     favicon: "/favicon.ico",
@@ -70,18 +70,17 @@ export default hopeTheme(
     // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
     blog: {
       articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-      name: "清顺",
+      name: "YuuKa-Wang",
       avatar: "/avatar_self.webp",
-      description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+      description: "To be finished",
       intro: "/intro.html",
       medias: {
         GitHub: "https://github.com/rockbenben",
         Zhihu: "https://www.zhihu.com/people/qingwhat",
-        少数派: { icon: "https://newzone.top/icons/sspai.svg", link: "https://sspai.com/u/zqj05i4v/posts" },
-        Wechat: "https://img.newzone.top/wechat.svg",
-        Email: "mailto:learndata@newzone.top",
-        Discord: "https://discord.gg/PZTQfJ4GjX",
-        RSS: "/rss.xml",
+        少数派: { icon: "https://newzone.top/icons/sspai.svg", link: "" },
+        Wechat: "",
+        Email: "mailto:yuukawang@outlook.com",
+        Email: "mailto:yuukawang@hotmail.com",
       },
     },
 

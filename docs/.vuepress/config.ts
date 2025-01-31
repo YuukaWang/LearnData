@@ -2,7 +2,6 @@ import { webpackBundler } from "@vuepress/bundler-webpack";
 import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
-import { katex } from '@mdit/plugin-katex'
 
 import theme from "./theme.js";
 
@@ -20,11 +19,6 @@ export default defineUserConfig({
   theme,
   // 是否开启页面预拉取，如果服务器宽带足够，可改为 true，会提升其他页面加载速度
   shouldPrefetch: false,
-
-  extendsMarkdown: (md) => {
-    md.use(katex);
-    md.linkify.set({ fuzzyEmail: false });
-  }, 
   
   // 修改页面模板，https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/packages/theme/templates/index.build.html
   // 配置参考：https://vuepress.github.io/zh/reference/theme-api.html#templatebuild

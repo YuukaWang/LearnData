@@ -11,7 +11,7 @@ export default hopeTheme(
       url: "https://yuukawang.github.io/LearnData/",
     },
 
-    favicon: "",
+    favicon: "/favicon.ico",
     logo: "/logo.svg",
 
     // 网站文章的版权声明
@@ -40,7 +40,7 @@ export default hopeTheme(
     fullscreen: true,
 
     // 默认为 GitHub. 同时也可以是一个完整的 URL
-    repo: "rockbenben/LearnData",
+    repo: "https://github.com/YuukaWang/LearnData/",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repoLabel: "GitHub",
     // 是否在导航栏内显示仓库链接，默认为 `true`
@@ -71,7 +71,7 @@ export default hopeTheme(
     blog: {
       articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
       name: "YuuKa-Wang",
-      avatar: "/avatar_self.webp",
+      //avatar: "/avatar_self.webp",
       description: "To be finished",
       intro: "/intro.html",
       medias: {

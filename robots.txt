@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://newzone.top/LearnData/sitemap.xml
+Sitemap: https://yuukawang.github.io/LearnData/LearnData/sitemap.xml

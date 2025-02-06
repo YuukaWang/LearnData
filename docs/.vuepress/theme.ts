@@ -103,6 +103,7 @@ export default hopeTheme(
       imgSize: true, // 启用图片大小
       hint: true, // 启用提示容器，默认启用
       alert: true, // 启用 GFM 警告
+       math: { type: "mathjax" },
     },
 
     plugins: {
